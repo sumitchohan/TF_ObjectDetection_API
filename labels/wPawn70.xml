@@ -1,7 +1,7 @@
 <annotation>
 	<folder>test</folder>
-	<filename>wPawn70.jpg</filename>
-	<path>/home/justin/Desktop/chess/images/test/wPawn70.jpg</path>
+	<filename>wPawn69.jpg</filename>
+	<path>/home/justin/Desktop/chess/images/test/wPawn69.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -14,13 +14,13 @@
 	<object>
 		<name>wPawn</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>244</xmin>
-			<ymin>139</ymin>
-			<xmax>300</xmax>
-			<ymax>298</ymax>
+			<xmin>65</xmin>
+			<ymin>141</ymin>
+			<xmax>105</xmax>
+			<ymax>282</ymax>
 		</bndbox>
 	</object>
 </annotation>
