@@ -3,3 +3,4 @@ mv protoc3/bin/* /usr/local/bin/
 mv protoc3/include/* /usr/local/include/
 curl -OL https://pythonprogramming.net/static/downloads/machine-learning-data/object-detection-macaroni.zip
 unzip object-detection-macaroni.zip
+cp -R models/research/object_detection/. object_detection
