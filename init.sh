@@ -13,4 +13,5 @@ protoc object_detection/protos/*.proto --python_out=.
 export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 curl -OL http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz
 tar -xzf ssd_mobilenet_v1_coco_11_06_2017.tar.gz
-cp object_detection/train.py ./train.py
+#cp object_detection/train.py ./train.py
+cp -R ssd_mobilenet_v1_coco_11_06_2017/. data
